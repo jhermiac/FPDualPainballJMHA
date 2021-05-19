@@ -53,6 +53,8 @@ public class FPDual {
 					money = escaner.nextInt();
 					if (money == 1 || money == 2 || money == 3 || money == 5) {
 						stop1 = true;
+					} else {
+						System.out.println("Has introducido una cantidad invalida, vuelve a intertalo");
 					}
 
 				} catch (InputMismatchException e) {
