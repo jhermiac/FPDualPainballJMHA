@@ -46,10 +46,15 @@ public class Pinball {
 				points += 70;
 			} else if (random == 8) {
 				points -= 20;
+			} else if (random == 9) {
+				points = 0;
+			} else if (random == 10) {
+				points -= 50;
 			} else {
 				points += 0;
 			}
-
+			
+			// Genera la información de cada tirada y los puntos optenidos. 
 			generateInfo(points, i);
 
 		}
